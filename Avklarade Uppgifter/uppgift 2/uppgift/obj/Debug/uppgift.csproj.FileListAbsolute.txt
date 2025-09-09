@@ -1,0 +1,8 @@
+C:\Users\Axevalla\source\repos\uppgift\uppgift\obj\Debug\uppgift.csproj.AssemblyReference.cache
+C:\Users\Axevalla\source\repos\uppgift\uppgift\obj\Debug\uppgift.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\source\repos\uppgift\uppgift\bin\Debug\uppgift.exe.config
+C:\Users\Axevalla\source\repos\uppgift\uppgift\bin\Debug\uppgift.exe
+C:\Users\Axevalla\source\repos\uppgift\uppgift\bin\Debug\uppgift.pdb
+C:\Users\Axevalla\source\repos\uppgift\uppgift\obj\Debug\uppgift.exe
+C:\Users\Axevalla\source\repos\uppgift\uppgift\obj\Debug\uppgift.pdb
+C:\Users\Axevalla\source\repos\uppgift\uppgift\obj\Debug\uppgift.exe.config
