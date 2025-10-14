@@ -11,9 +11,23 @@ namespace ConsoleApp1
     internal class Program
     {
         static void Main(string[] args)
+
         {
-            Console.WriteLine("What is your name?");
+
+            string weapon = Console.ReadLine();
             string playerName = Console.ReadLine();
+            int pmaxDamage = 0;
+            int pminDamage = 0;
+            int enemyMaxDamage = 8;
+            int enemyMinDamage = 3;
+            int enemyHealth = 50;
+            int playerHealth = 100;
+
+
+
+            Random rnd = new Random();
+            Console.WriteLine("What is your name?");
+         
             Console.WriteLine($"Hello, {playerName}");
             Console.ReadKey();
             Console.WriteLine("welcome to my game");
@@ -39,78 +53,117 @@ namespace ConsoleApp1
                 }
             }
 
-            
+
             Console.WriteLine("good luck");
             Console.Clear();
 
-            Console.WriteLine("now $ {playerName} Choose your weapon");
+
             Console.WriteLine("you have two choices Sword or axe");
-            string weapon = Console.ReadLine();
-            { 
-                if (weapon == "Sword" || weapon == "sword" || weapon == "SWORD")
-                {
-                    Console.WriteLine("you chose Sword");
-                    Console.WriteLine("good choice");
-                }
-                else if (weapon == "Axe" || weapon == "axe" || weapon == "AXE")
-                {
-                    Console.WriteLine("you chose Axe");
-                    Console.WriteLine("good choice");
-                }
-                else
-                {
-                    Console.WriteLine("you didn't choose a valid weapon");
-                }
-            }
             Console.ReadKey();
             Console.Clear();
-            Console.WriteLine($"You have a {weapon}");
+            Console.WriteLine($"You have a sword");
             Console.WriteLine("Now let's give your weapon some damage");
-            int pmaxDamage = 10;
-            int pminDamage = 5;
+            
             Console.WriteLine($"Your {weapon} can do {pminDamage} min damage or {pmaxDamage} max damage");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine($"You have a Axe");
+            Console.WriteLine("Now let's give your weapon some damage");
+            
+            Console.WriteLine($"Your Axe can do {pminDamage} min damage or {pmaxDamage} max damage");
             Console.ReadKey();
             Console.Clear();
 
             Console.WriteLine("Every Hero needs a health bar");
             Console.WriteLine("You start with 100 health");
             Console.WriteLine("Congrats");
-            int playerHealth = 100;
+            playerHealth = 100;
             Console.WriteLine($"You have {playerHealth} health");
             Console.ReadKey();
             Console.Clear();
 
             Console.WriteLine("Now you need to fight the enemy");
             Console.WriteLine("You will fight a goblin");
-            int enemyHealth = 50;
+            enemyHealth = 50;
             Console.WriteLine($"The goblin has {enemyHealth} health");
             Console.WriteLine("The goblin can do 3 min damage or 8 max damage");
-            int enemyMaxDamage = 8;
-            int enemyMinDamage = 3;
-            Console.ReadKey();
+            enemyMaxDamage = 8;
+            enemyMinDamage = 3;
 
+            Console.ReadKey();
             Console.Clear();
             Console.WriteLine("NOW");
             Console.WriteLine("Get ready");
-            Console.WriteLine("The fight will start in 3 seconds"); 
+            Console.WriteLine("The fight will start in 3 seconds");
 
             Console.WriteLine("3");
             Console.WriteLine("2");
             Console.WriteLine("1");
 
             Console.WriteLine("LEEEETS GEEEET REEEADY TO RUMBLEEEEEEE");
-            while (playerHealth > 0)
+            while (playerHealth > 0 && enemyHealth > 0)
             {
-               // if 
-                {
-                    //För att tilldela ett slumpat värde så måste vi använda oss utav en
-                    //funktion.Vi har tillgång tilldenna funktion tack vare våra importeradebibliotek(using System högst upp i programmet).
-                    //Exempel på hur vi tilldelar ett randomvärde tillspelarens faktiska skada:
-                    //Notera att "rnd" är namnet på vår random seed som vi skapade när programmet börjar!
+                weapon = Console.ReadLine();
+                
+                    if (weapon == "Sword" || weapon == "sword" || weapon == "SWORD")
+                    {
+                        Console.WriteLine("you chose Sword");
+                        Console.WriteLine("good choice");
+                    pmaxDamage = 10;
+                    pminDamage = 5;
                 }
+                    else if (weapon == "Axe" || weapon == "axe" || weapon == "AXE")
+                    {
+                        Console.WriteLine("you chose Axe");
+                        Console.WriteLine("good choice");
+                    pmaxDamage = 14;
+                    pminDamage = 7;
+                }
+                    else
+                    {
+                        Console.WriteLine("you didn't choose a valid weapon");
+                    }
+
+                    Console.WriteLine($"You have {playerHealth} health");
+                    int playerDamage = rnd.Next(pminDamage, pmaxDamage);                
+                    enemyHealth = enemyHealth - playerDamage;
+                    Console.WriteLine($"You did {playerDamage} damage to the goblin");
+                    Console.WriteLine($"The goblin has {enemyHealth} health left");
+
+                    Console.WriteLine("The goblin is attacking you");
+                    int enemyDamage = rnd.Next(enemyMinDamage, enemyMaxDamage);
+                    playerHealth = playerHealth - enemyDamage;
+                    Console.WriteLine($"The goblin did {enemyDamage} damage to you");
+                    Console.WriteLine($"You have {playerHealth} health left");
+                    Console.ReadKey();
+                    Console.Clear();
+
+                    Console.WriteLine("now $ {playerName} Choose your weapon agian");
+                    Console.WriteLine("you have two choices Sword or axe");
+                    weapon = Console.ReadLine();
+                    {
+                        if (weapon == "Sword" || weapon == "sword" || weapon == "SWORD")
+                        {
+                            Console.WriteLine("you chose Sword");
+                            Console.WriteLine("good choice");
+                        }
+                        else if (weapon == "Axe" || weapon == "axe" || weapon == "AXE")
+                        {
+                            Console.WriteLine("you chose Axe");
+                            Console.WriteLine("good choice");
+                        }
+                        else
+                        {
+                            Console.WriteLine("you didn't choose a valid weapon");
+                        }
+                    }
+
+                }
+
             }
-
         }
-
     }
-}
+
+
+
+

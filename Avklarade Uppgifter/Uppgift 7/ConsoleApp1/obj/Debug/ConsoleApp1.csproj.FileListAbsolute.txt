@@ -6,3 +6,11 @@ C:\Users\pontu_kat16n9\Downloads\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.p
 C:\Users\pontu_kat16n9\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\pontu_kat16n9\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 C:\Users\pontu_kat16n9\Downloads\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\Uppgift 7\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
