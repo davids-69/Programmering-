@@ -14,10 +14,10 @@ namespace ConsoleApp1
 
         {
 
-            string weapon = Console.ReadLine();
-            string playerName = Console.ReadLine();
-            int pmaxDamage = 0;
-            int pminDamage = 0;
+            string weapon = "";
+            string playerName;
+            int pmaxDamage = 10;
+            int pminDamage = 5;
             int enemyMaxDamage = 8;
             int enemyMinDamage = 3;
             int enemyHealth = 50;
@@ -27,7 +27,7 @@ namespace ConsoleApp1
 
             Random rnd = new Random();
             Console.WriteLine("What is your name?");
-         
+            playerName = Console.ReadLine();
             Console.WriteLine($"Hello, {playerName}");
             Console.ReadKey();
             Console.WriteLine("welcome to my game");
@@ -55,22 +55,25 @@ namespace ConsoleApp1
 
 
             Console.WriteLine("good luck");
+            Console.ReadKey();
             Console.Clear();
 
 
-            Console.WriteLine("you have two choices Sword or axe");
-            Console.ReadKey();
-            Console.Clear();
-            Console.WriteLine($"You have a sword");
-            Console.WriteLine("Now let's give your weapon some damage");
-            
-            Console.WriteLine($"Your {weapon} can do {pminDamage} min damage or {pmaxDamage} max damage");
-            Console.ReadKey();
-            Console.Clear();
-            Console.WriteLine($"You have a Axe");
-            Console.WriteLine("Now let's give your weapon some damage");
-            
-            Console.WriteLine($"Your Axe can do {pminDamage} min damage or {pmaxDamage} max damage");
+            Console.WriteLine("you have two choices, between Sword or axe");
+            // Console.ReadKey();
+            // Console.Clear();
+            // Console.WriteLine($"If you choose a sword");
+            // Console.WriteLine($"Now let's give your {weapon} some damage");
+            pmaxDamage = 10;
+            pminDamage = 5;
+            Console.WriteLine($"Your sword can do {pminDamage} min damage or {pmaxDamage} max damage");
+            // Console.ReadKey();
+            // Console.Clear();
+            // Console.WriteLine($"You have a Axe");
+            // Console.WriteLine($"Now let's give your {weapon} some damage");
+            pmaxDamage = 14;
+            pminDamage = 7;
+            Console.WriteLine($"Your axe can do {pminDamage} min damage or {pmaxDamage} max damage");
             Console.ReadKey();
             Console.Clear();
 
@@ -95,34 +98,57 @@ namespace ConsoleApp1
             Console.WriteLine("NOW");
             Console.WriteLine("Get ready");
             Console.WriteLine("The fight will start in 3 seconds");
-
+            Console.ReadKey();
+            Console.Clear();
             Console.WriteLine("3");
+            Console.ReadKey();
+            Console.Clear();
             Console.WriteLine("2");
+            Console.ReadKey();
+            Console.Clear();
             Console.WriteLine("1");
+            Console.ReadKey();
+            Console.Clear();
 
             Console.WriteLine("LEEEETS GEEEET REEEADY TO RUMBLEEEEEEE");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine($"Now {playerName}! choose your weapon");
             while (playerHealth > 0 && enemyHealth > 0)
             {
-                weapon = Console.ReadLine();
-                
+                while (true)
+                {
+
+                    //INFO här: be spelaren välja vapen
+                    weapon = Console.ReadLine();
+
                     if (weapon == "Sword" || weapon == "sword" || weapon == "SWORD")
                     {
                         Console.WriteLine("you chose Sword");
                         Console.WriteLine("good choice");
-                    pmaxDamage = 10;
-                    pminDamage = 5;
-                }
+                        pmaxDamage = 10;
+                        pminDamage = 5;
+                        break;
+                    }
                     else if (weapon == "Axe" || weapon == "axe" || weapon == "AXE")
                     {
                         Console.WriteLine("you chose Axe");
                         Console.WriteLine("good choice");
-                    pmaxDamage = 14;
-                    pminDamage = 7;
-                }
+                        pmaxDamage = 14;
+                        pminDamage = 7;
+                        break;
+                    }
                     else
                     {
+                        Console.WriteLine("vapen är: " + weapon);
                         Console.WriteLine("you didn't choose a valid weapon");
+
                     }
+                }
+            
+
+                    Console.ReadKey();
+                    Console.Clear();
 
                     Console.WriteLine($"You have {playerHealth} health");
                     int playerDamage = rnd.Next(pminDamage, pmaxDamage);                
@@ -138,27 +164,20 @@ namespace ConsoleApp1
                     Console.ReadKey();
                     Console.Clear();
 
-                    Console.WriteLine("now $ {playerName} Choose your weapon agian");
+                    Console.WriteLine($"now {playerName} Choose your weapon agian");
                     Console.WriteLine("you have two choices Sword or axe");
-                    weapon = Console.ReadLine();
-                    {
-                        if (weapon == "Sword" || weapon == "sword" || weapon == "SWORD")
-                        {
-                            Console.WriteLine("you chose Sword");
-                            Console.WriteLine("good choice");
-                        }
-                        else if (weapon == "Axe" || weapon == "axe" || weapon == "AXE")
-                        {
-                            Console.WriteLine("you chose Axe");
-                            Console.WriteLine("good choice");
-                        }
-                        else
-                        {
-                            Console.WriteLine("you didn't choose a valid weapon");
-                        }
-                    }
+                    
 
-                }
+            }
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine("CONGRATS.... YOU HAVE WON!");
+            Console.WriteLine("your price is......");
+            Console.WriteLine("Legendary title");
+            Console.WriteLine("Achilles");
+            Console.ReadKey();
+            Console.Clear();
+            Console.WriteLine($"Goodbye {playerName}");
 
             }
         }
