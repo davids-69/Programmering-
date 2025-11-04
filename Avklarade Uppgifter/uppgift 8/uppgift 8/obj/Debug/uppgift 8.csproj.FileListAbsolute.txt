@@ -14,3 +14,11 @@ C:\Users\pontu_kat16n9\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppg
 C:\Users\pontu_kat16n9\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.csproj.CoreCompileInputs.cache
 C:\Users\pontu_kat16n9\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.exe
 C:\Users\pontu_kat16n9\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.pdb
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\bin\Debug\uppgift 8.exe.config
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\bin\Debug\uppgift 8.exe
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\bin\Debug\uppgift 8.pdb
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.csproj.AssemblyReference.cache
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.exe.config
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.csproj.CoreCompileInputs.cache
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.exe
+C:\Users\Axevalla\Desktop\Programmering-\Avklarade Uppgifter\uppgift 8\uppgift 8\obj\Debug\uppgift 8.pdb

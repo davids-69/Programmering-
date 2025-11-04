@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32.SafeHandles;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
@@ -24,18 +25,18 @@ namespace uppgift_8
 
             Console.WriteLine("välj drag");
             //   Console.WriteLine("Sten, sax, Påse");
-            Console.WriteLine("Sten (1), sax (2), Påse (3)");
-
-
+            Console.WriteLine("Sten (0), sax (1), Påse (2)");
 
 
 
             while (true)
             {
+                Console.WriteLine("choose");
                 int answer = int.Parse(Console.ReadLine());
                 //Datorn får ett slumpat drag
+
                 pcmove = generator.Next(4);
-                while (answer < 1 || answer > 3)
+                while (answer < 0 || answer > 2)
                 {
 
                     Console.WriteLine("you didn't choose a move. choose again!");
@@ -43,7 +44,59 @@ namespace uppgift_8
 
 
                 }
-                Console.WriteLine(" datorn valde" + pcmove );
+                Console.WriteLine(" datorn valde " + pcmove);
+                Console.ReadLine();
+
+                if (answer == 0 && pcmove == 0) // är lika med
+                {
+                    Console.WriteLine("draw!");
+                }
+                else if (answer == 1 && pcmove == 1)
+                {
+                    Console.WriteLine("draw!");
+                }
+                else if (answer == 2 && pcmove == 2)
+                {
+                    Console.WriteLine("draw!"); // är lika med
+                }
+
+                else if (answer == 0 && pcmove == 1) 
+                {
+                    Console.WriteLine("sten slår sax");
+                    Console.WriteLine("player win");
+                }
+                else if (answer == 1 && pcmove == 0)
+                {
+                    Console.WriteLine("sten slår sax");
+                    Console.WriteLine("player lose");
+                }
+                else if (answer == 1 && pcmove == 2) 
+                {
+                    Console.WriteLine("sax slår påse");
+                    Console.WriteLine("player win");
+                }
+                else if (answer == 2 && pcmove == 1)
+                {
+                    Console.WriteLine("sax slår påse ");
+                    Console.WriteLine("player lose");
+                } 
+                else if (answer == 2 && pcmove == 0)
+                {
+                    Console.WriteLine("påse slår sten");
+                    Console.WriteLine("player win");
+                }
+                else if(answer == 0 && pcmove == 2)
+                {
+                    Console.WriteLine("påse slår sten");
+                    Console.WriteLine("player lose");
+                }
+                
+               /* else
+                {
+                    Console.WriteLine($"player: {playermove} cpu: {pcmove}");
+                }
+                */
+               // ("Sten (0), sax (1), Påse (2)"); 
             }
 
         }

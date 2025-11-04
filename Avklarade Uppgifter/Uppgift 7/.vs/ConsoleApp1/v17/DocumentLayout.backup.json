@@ -14,6 +14,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "0ab513c2-7bc1-47d1-ad0f-d154c2ebdf63",
+        "Display": 0,
+        "X": 411,
+        "Y": 113,
+        "Width": 1510,
+        "Height": 675,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -24,7 +44,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\Axevalla\\Desktop\\Programmering-\\Avklarade Uppgifter\\Uppgift 7\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAgwLMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAwwLMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T08:50:21.98Z",
               "EditorCaption": ""
