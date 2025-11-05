@@ -13,8 +13,11 @@ namespace uppgift_8
         static void Main(string[] args)
         {
 
-            int playermove;
+           // int playermove;
             int pcmove;
+            int playerscore = 0;
+            int pcscore = 0;
+           
 
 
             Random generator = new Random();
@@ -24,7 +27,6 @@ namespace uppgift_8
 
 
             Console.WriteLine("välj drag");
-            //   Console.WriteLine("Sten, sax, Påse");
             Console.WriteLine("Sten (0), sax (1), Påse (2)");
 
 
@@ -35,7 +37,7 @@ namespace uppgift_8
                 int answer = int.Parse(Console.ReadLine());
                 //Datorn får ett slumpat drag
 
-                pcmove = generator.Next(4);
+                pcmove = generator.Next(3);
                 while (answer < 0 || answer > 2)
                 {
 
@@ -44,8 +46,10 @@ namespace uppgift_8
 
 
                 }
+                Console.WriteLine("Sten (0), sax (1), Påse (2)");
                 Console.WriteLine(" datorn valde " + pcmove);
-                Console.ReadLine();
+                
+                
 
                 if (answer == 0 && pcmove == 0) // är lika med
                 {
@@ -59,46 +63,60 @@ namespace uppgift_8
                 {
                     Console.WriteLine("draw!"); // är lika med
                 }
-
                 else if (answer == 0 && pcmove == 1) 
                 {
                     Console.WriteLine("sten slår sax");
                     Console.WriteLine("player win");
+                    playerscore = playerscore + 1;
                 }
                 else if (answer == 1 && pcmove == 0)
                 {
                     Console.WriteLine("sten slår sax");
                     Console.WriteLine("player lose");
+                    pcscore = pcscore + 1;
                 }
                 else if (answer == 1 && pcmove == 2) 
                 {
                     Console.WriteLine("sax slår påse");
                     Console.WriteLine("player win");
+                    playerscore = playerscore + 1;
                 }
                 else if (answer == 2 && pcmove == 1)
                 {
                     Console.WriteLine("sax slår påse ");
                     Console.WriteLine("player lose");
+                    pcscore = pcscore + 1;
                 } 
                 else if (answer == 2 && pcmove == 0)
                 {
                     Console.WriteLine("påse slår sten");
                     Console.WriteLine("player win");
+                    playerscore = playerscore + 1;
                 }
                 else if(answer == 0 && pcmove == 2)
                 {
                     Console.WriteLine("påse slår sten");
                     Console.WriteLine("player lose");
+                    pcscore = pcscore + 1;
                 }
-                
-               /* else
+               else
                 {
-                    Console.WriteLine($"player: {playermove} cpu: {pcmove}");
+                    Console.WriteLine($"player: {answer} cpu: {pcmove}");
                 }
-                */
-               // ("Sten (0), sax (1), Påse (2)"); 
-            }
 
+                if (playerscore >= 3) 
+                { 
+                    Console.WriteLine("congratz! you win");
+                    Console.WriteLine("GAME OVER");
+                    break;
+                }
+                else if (pcscore >= 3)
+                {
+                    Console.WriteLine("to bad, you lose! pc win");
+                    Console.WriteLine("GAME OVER");
+                    break;
+                }
+            }
         }
     }
 }
