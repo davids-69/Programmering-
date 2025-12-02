@@ -5,3 +5,11 @@ C:\Users\Axevalla\Downloads\uppgift 09\uppgift 09\obj\Debug\uppgift 09.csproj.As
 C:\Users\Axevalla\Downloads\uppgift 09\uppgift 09\obj\Debug\uppgift 09.csproj.CoreCompileInputs.cache
 C:\Users\Axevalla\Downloads\uppgift 09\uppgift 09\obj\Debug\uppgift 09.exe
 C:\Users\Axevalla\Downloads\uppgift 09\uppgift 09\obj\Debug\uppgift 09.pdb
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\obj\Debug\uppgift 09.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\obj\Debug\uppgift 09.exe.config
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\obj\Debug\uppgift 09.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\obj\Debug\uppgift 09.exe
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\obj\Debug\uppgift 09.pdb
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\bin\Debug\uppgift 09.exe.config
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\bin\Debug\uppgift 09.exe
+C:\Users\Admin\Desktop\Programmering-\Avklarade Uppgifter\uppgift 09\uppgift 09\bin\Debug\uppgift 09.pdb

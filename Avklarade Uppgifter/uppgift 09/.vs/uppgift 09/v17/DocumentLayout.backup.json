@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Axevalla\\Downloads\\uppgift 09\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Programmering-\\Avklarade Uppgifter\\uppgift 09\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6E2F17A-4605-42D3-8460-44CF14C9BA6D}|uppgift 09\\uppgift 09.csproj|c:\\users\\axevalla\\downloads\\uppgift 09\\uppgift 09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6E2F17A-4605-42D3-8460-44CF14C9BA6D}|uppgift 09\\uppgift 09.csproj|c:\\users\\admin\\desktop\\programmering-\\avklarade uppgifter\\uppgift 09\\uppgift 09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6E2F17A-4605-42D3-8460-44CF14C9BA6D}|uppgift 09\\uppgift 09.csproj|solutionrelative:uppgift 09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Axevalla\\Downloads\\uppgift 09\\uppgift 09\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Programmering-\\Avklarade Uppgifter\\uppgift 09\\uppgift 09\\Program.cs",
               "RelativeDocumentMoniker": "uppgift 09\\Program.cs",
-              "ToolTip": "C:\\Users\\Axevalla\\Downloads\\uppgift 09\\uppgift 09\\Program.cs*",
-              "RelativeToolTip": "uppgift 09\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Programmering-\\Avklarade Uppgifter\\uppgift 09\\uppgift 09\\Program.cs",
+              "RelativeToolTip": "uppgift 09\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAnwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T09:49:13.7Z",
               "EditorCaption": ""
