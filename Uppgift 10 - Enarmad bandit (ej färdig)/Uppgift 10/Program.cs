@@ -1,15 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Uppgift_10
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
+            int credits = 100;
+
+            Random random = new Random();
+            string[] symbols = new[] { "CHERRY", "BELL", "LEMON", "STAR", "7" };
+            Console.WriteLine("Välkommen till Slot Machine Game!");
+            Console.WriteLine($"Du börjar med {credits} krediter.");
+            Console.WriteLine("Tryck på valfri tangent för att spela...");
+
+            while (true)
+            {
+                if (credits <= 0)
+                {
+                    Console.WriteLine("Du har inga krediter");
+
+                }
+            }
         }
+       
     }
+
 }

@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Axevalla\\Downloads\\Uppgift 10\\",
+  "WorkspaceRootPath": "C:\\Users\\Axevalla\\Desktop\\Programmering-\\Uppgift 10 - Enarmad bandit (ej f\u00E4rdig)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F36B6976-702F-4D7E-B493-2120993A47BD}|Uppgift 10\\Uppgift 10.csproj|c:\\users\\axevalla\\downloads\\uppgift 10\\uppgift 10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F36B6976-702F-4D7E-B493-2120993A47BD}|Uppgift 10\\Uppgift 10.csproj|solutionrelative:uppgift 10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04A45CAE-7465-47DC-9E46-D778529BF63A}|Uppgift 10\\Uppgift 10.csproj|c:\\users\\axevalla\\desktop\\programmering-\\uppgift 10 - enarmad bandit (ej f\u00E4rdig)\\uppgift 10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A45CAE-7465-47DC-9E46-D778529BF63A}|Uppgift 10\\Uppgift 10.csproj|solutionrelative:uppgift 10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,13 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Axevalla\\Downloads\\Uppgift 10\\Uppgift 10\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Axevalla\\Desktop\\Programmering-\\Uppgift 10 - Enarmad bandit (ej f\u00E4rdig)\\Uppgift 10\\Program.cs",
               "RelativeDocumentMoniker": "Uppgift 10\\Program.cs",
-              "ToolTip": "C:\\Users\\Axevalla\\Downloads\\Uppgift 10\\Uppgift 10\\Program.cs",
+              "ToolTip": "C:\\Users\\Axevalla\\Desktop\\Programmering-\\Uppgift 10 - Enarmad bandit (ej f\u00E4rdig)\\Uppgift 10\\Program.cs",
               "RelativeToolTip": "Uppgift 10\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T09:48:59.878Z",
+              "WhenOpened": "2026-03-10T10:38:33.02Z",
               "EditorCaption": ""
             }
           ]

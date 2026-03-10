@@ -1,0 +1,29 @@
+﻿using System;
+using System.Text;
+
+namespace Uppgift_10
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var game = new SlotMachineGame();
+            game.Run();
+        }
+    }
+
+    internal class SlotMachineGame
+    {
+        private readonly Random _random = new Random();
+        private readonly string[] _symbols = new[] { "CHERRY", "BELL", "LEMON", "STAR", "7" };
+        private int _credits = 100;
+
+        public void Run()
+        {
+            WriteIntro();
+
+            while (true)
+            {
+                if (_credits <= 0)
+                {
+                    Console.WriteLine("Du har inga krediter
