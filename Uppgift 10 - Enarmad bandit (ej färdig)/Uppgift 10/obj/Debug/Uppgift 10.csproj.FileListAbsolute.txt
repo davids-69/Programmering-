@@ -6,3 +6,11 @@ C:\Users\Axevalla\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig
 C:\Users\Axevalla\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.exe
 C:\Users\Axevalla\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.pdb
 C:\Users\Axevalla\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.exe.config
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\bin\Debug\Uppgift 10.exe.config
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\bin\Debug\Uppgift 10.exe
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\bin\Debug\Uppgift 10.pdb
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.csproj.AssemblyReference.cache
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.exe.config
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.csproj.CoreCompileInputs.cache
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.exe
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 10 - Enarmad bandit (ej färdig)\Uppgift 10\obj\Debug\Uppgift 10.pdb
