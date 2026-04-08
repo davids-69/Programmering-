@@ -44,6 +44,9 @@ namespace Uppgift_11
                 while (choose <= 0 || choose >= 4)
                 {
                     Console.WriteLine("Choose 1 - 3");
+                    Console.WriteLine("1 = Choose a animal");
+                    Console.WriteLine("2 = List of animals");
+                    Console.WriteLine("3 = Exit the game");
                     choose = Convert.ToInt32(Console.ReadLine());
 
 
@@ -52,7 +55,7 @@ namespace Uppgift_11
                 {
 
                     animals = new Animals();
-                    Console.WriteLine("choose a animal");
+                    Console.WriteLine("please choose a animal");
                     animals.animals = Console.ReadLine();
                     Console.WriteLine("what does the animal eat");
                     animals.diet = Console.ReadLine();
