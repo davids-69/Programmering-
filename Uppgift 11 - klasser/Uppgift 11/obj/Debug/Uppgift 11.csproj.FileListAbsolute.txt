@@ -1,0 +1,8 @@
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\bin\Debug\Uppgift 11.exe.config
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\bin\Debug\Uppgift 11.exe
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\bin\Debug\Uppgift 11.pdb
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\obj\Debug\Uppgift 11.csproj.AssemblyReference.cache
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\obj\Debug\Uppgift 11.csproj.CoreCompileInputs.cache
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\obj\Debug\Uppgift 11.exe
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\obj\Debug\Uppgift 11.pdb
+C:\Users\pontu_kat16n9\Desktop\Programmering-\Uppgift 11 - klasser\Uppgift 11\obj\Debug\Uppgift 11.exe.config
