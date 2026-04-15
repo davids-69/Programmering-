@@ -25,17 +25,29 @@ namespace Uppgift_11
                 Console.WriteLine("Animal food: " + diet);
                 Console.WriteLine("Animal Legs: " + numberOfLegs);
             }
+            public Animals(string animalname, string dietType, int legs)
+            {
+                animals = animalname;
+                diet = dietType;
+                numberOfLegs = legs;
+
+                animalname = animals;
+            }
 
         }
         static void Main(string[] args)
         {
 
             // animals.animalInfo();
-            Animals animals = new Animals();
+            Animals animals = new Animals("Hund", "kött", 4);
 
             int choose = 0;
             choose = 0;
             List<Animals> Animals = new List<Animals>();
+
+            //Animals dogAnimal = new Animals("dog", "meat", 4);
+
+
 
             while (true)
             {
@@ -54,7 +66,7 @@ namespace Uppgift_11
                 if (choose == 1)
                 {
 
-                    animals = new Animals();
+                    animals = new Animals("cat" , "meat", 4);
                     Console.WriteLine("choose a animal");
                     animals.animals = Console.ReadLine();
                     Console.WriteLine("what does the animal eat");

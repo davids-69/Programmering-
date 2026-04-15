@@ -41,7 +41,8 @@ namespace Uppgift_10
             Console.WriteLine("Du har nu möljiheten att sätta in dina krediter, skriv in hur många krediter du vill sätta in:");
             Console.WriteLine("hur mycke vill du sätta in " + playerBet );
             Console.ReadLine();
-            Console.WriteLine("du har nu satt in credits och är redo att spela");
+            Console.WriteLine("du har nu satt in credits");
+            Console.WriteLine("nu kan du börja spela");
 
             while (playerBet < 10 || playerBet > 1000 || playerBet > credits)
             {
