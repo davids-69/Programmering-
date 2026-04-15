@@ -43,6 +43,9 @@ namespace Uppgift_11
 
                 while (choose <= 0 || choose >= 4)
                 {
+                    Console.WriteLine("nr 1 = choose a animal");
+                    Console.WriteLine("nr 2 = list of animals");
+                    Console.WriteLine("nr 3 = exit the game");
                     Console.WriteLine("Choose 1 - 3");
                     choose = Convert.ToInt32(Console.ReadLine());
 
