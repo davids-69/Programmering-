@@ -14,9 +14,9 @@ namespace Uppgift_11
         public class Animals
         {
 
-            public string animals;
-            public string diet;
-            public int numberOfLegs;
+             string animals;
+             string diet;
+             int numberOfLegs;
 
 
             public void animalInfo()
@@ -66,13 +66,15 @@ namespace Uppgift_11
                 if (choose == 1)
                 {
 
-                    animals = new Animals("cat" , "meat", 4);
+                    
                     Console.WriteLine("choose a animal");
-                    animals.animals = Console.ReadLine();
+                    string animalName = Console.ReadLine();
                     Console.WriteLine("what does the animal eat");
-                    animals.diet = Console.ReadLine();
+                    string dietType = Console.ReadLine();
                     Console.WriteLine("number of legs");
-                    animals.numberOfLegs = Convert.ToInt32(Console.ReadLine());
+                    int legs = Convert.ToInt32(Console.ReadLine());
+
+                    animals = new Animals(animalName, dietType, legs);
                     Animals.Add(animals);
                 }
                 if (choose == 2)

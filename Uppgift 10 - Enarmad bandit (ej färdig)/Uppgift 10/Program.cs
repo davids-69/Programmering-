@@ -43,6 +43,7 @@ namespace Uppgift_10
             Console.ReadLine();
             Console.WriteLine("du har nu satt in credits");
             Console.WriteLine("nu kan du börja spela");
+           
 
             while (playerBet < 10 || playerBet > 1000 || playerBet > credits)
             {
