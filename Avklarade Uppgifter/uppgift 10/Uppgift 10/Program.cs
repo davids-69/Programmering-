@@ -10,7 +10,7 @@ namespace Uppgift_10
         const int JackpotMultiplier = 5;
         const int WinMultiplier = 2;
 
-        static string[] slot1 = new string[3];
+        static string[] slots = new string[3];
         static string slotResult = "";
         static int credits = 0;
         static int playerBet = 0;
@@ -114,26 +114,26 @@ namespace Uppgift_10
         {
             string[] symbols = new[] { "LEMON", "CHERRY", "7" };
 
-            for (int i = 0; i < slot1.Length; i++)
+            for (int i = 0; i < slots.Length; i++)
             {
                 int index = random.Next(0, symbols.Length);
-                slot1[i] = symbols[index];
+                slots[i] = symbols[index];
             }
 
-            slotResult = slot1[0] + slot1[1] + slot1[2];
+            slotResult = slots[0] + slots[1] + slots[2];
         }
 
         
         static void DisplayResult()
         {
             Console.WriteLine();
-            Console.WriteLine($"[ {slot1[0],-8} | {slot1[1],-8} | {slot1[2],-8} ]");
+            Console.WriteLine($"[ {slots[0],-8} | {slots[1],-8} | {slots[2],-8} ]");
         }
 
        
         static void Check()
         {
-            bool allMatch = slot1[0] == slot1[1] && slot1[1] == slot1[2];
+            bool allMatch = slots[0] == slots[1] && slots[1] == slots[2];
             bool is777 = slotResult == "777";
 
             if (is777)
