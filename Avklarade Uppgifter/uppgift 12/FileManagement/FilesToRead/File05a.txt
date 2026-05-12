@@ -1,0 +1,4 @@
+Name: david
+Year of birth: 1989
+Favourite colour: blå
+Favourite building in Axevalla Folkhögskola: datasalen

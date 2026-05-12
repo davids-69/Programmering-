@@ -48,9 +48,10 @@ namespace FileManagement
             //Skriv till textdokumentet
 
             //Jobba med File05 här
-            File05Task(input05);
+            List<string> result05 = File05Task(input05);
             //Kalla på funktion
             //Skriv till textdokumentet
+            File.WriteAllLines("C:\\Users\\Axevalla\\Desktop\\Programmering-\\Uppgift 12 - Skriva till- och från fil\\FileManagement\\FilesToRead\\File05a.txt", result05);
         }
 
         static string File01Task(string input)
@@ -129,20 +130,23 @@ namespace FileManagement
         }
         
 
-        static void File05Task(string[] input)
+        static List<string> File05Task(string[] input)
         {
             // Samma uppgift som File04, fast nu ska ni ersätta den existerande informationen
             // med ny information!
             Console.WriteLine("Svara på frågorna! (tryck Enter för att lämna svaret tomt)");
+            
             var answers = new List<string>();
             for (int i = 0; i < input.Length; i++)
             {
-                Console.WriteLine(input[i]);
+                string[] qa = input[i].Split(':');
+
+                Console.WriteLine(qa[0]);
                 string response = Console.ReadLine() ?? "";
-                answers.Add(response);
+                answers.Add(qa[0] + ": " + response);
             }
 
-            Console.WriteLine("skriv spara för att spara svaren (eller tryck Enter för att inte spara):");
+            return answers;
            
         }
     }
